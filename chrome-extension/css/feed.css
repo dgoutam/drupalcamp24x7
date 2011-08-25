@@ -1,0 +1,154 @@
+/**
+ * Copyright (c) 2011 DrupalCamp24x7.org. All rights reserved.
+ 
+ * Sets style of different elements in pop-up page.
+ * 
+ * Author: dgoutam@gmail.com (Goutam Dey).
+ */
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  min-width: 400px;
+  overflow: visible;
+  background: #fbfbfb url(/images/body_bg.jpg);
+}
+
+a {
+  color: #0000CC;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#noStories {
+  background-color: rgb(255, 238, 136);
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 140px;
+  margin-right: 140px;
+  text-align: center;
+}
+.open_box {
+  background-image:url(/images/news_action.png);
+  display: block;
+  height: 19px;
+  margin-top: 2px;
+  overflow: hidden;
+  width: 19px;
+  float: left;
+}
+.opened .open_box {
+  background-position: -12px -24px;
+}
+.item {
+  padding: 2px 0;
+  margin-bottom:5px;
+}
+.item_title {
+  cursor: pointer;
+  display: block;
+  min-width: 300px;
+  padding: 0 0 0 25px;
+  font-family:Droid Sans, Verdana, Arial, sans-serif;   font-family:Droid Sans, Verdana, Arial, sans-serif;   
+  letter-spacing:100%;
+  color:#434343;
+  text-shadow: #fff  0px 1px 0;
+  font-size:140%;
+  text-decoration:none;
+  line-height:24px;
+}
+.item_desc {
+  border: none;
+  display: block;
+  height: 0;
+  margin: 0;
+  min-width: 500px;
+  padding: 0;
+  -webkit-transition: height 0.2s ease-out;
+}
+#title {
+  display: block;
+}
+.error {
+  background-color: rgb(255, 238, 136);
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 125px;
+  margin-right: 125px;
+  text-align: center;
+  white-space: nowrap;
+}
+.more {
+  color: #88C;
+  display: block;
+  margin-left: 385px;
+  padding-right: 10px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+
+/* CUSTOM */
+
+.logo a{
+	widh:171px;
+	height:40px;
+	text-indent:-999px;
+	color:transparent;
+	display:block;
+}
+
+/* NAV */
+.nav-wrapper{
+	margin-top:20px;
+}
+.nav-sep{
+	height:2px;
+	background:url(/images/sprite.png) -1px -1185px;
+}
+
+.nav-menu-wrap{
+	height:40px;
+	line-height:40px;
+}
+.top-nav{
+	width:180px;
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+ul.menu, ul.menu li{
+	list-style:none;
+	margin:0;
+	padding:0;
+	padding:0;
+}
+ul.menu li{
+	float:right;
+	width:80px;
+	
+	border-radius:5px;
+	height:22px;
+	color:#f0f0f0;
+	text-align:center;
+	line-height:22px;
+	margin-left:5px;
+}
+li.active{
+	background:#029FF9;
+}
+li.normal{
+	background:#444444;
+}
+
+ul.menu li a{	
+	color:#f0f0f0;
+	text-transform:uppercase;
+	line-height:22px;
+	text-decoration: none
+}
+.show{
+	display:block;
+}
+.hide{
+	display:none;
+}

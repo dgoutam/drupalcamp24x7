@@ -1,0 +1,37 @@
+{
+  "extName": {
+    "message": "DrupalCamp24x7.org"
+  },
+  "extDesc": {
+    "message": "Displays the latest and featured tutorials from DrupalCamp24x7.org in a popup."
+  },
+  "ext_default_title": {
+    "message": "DrupalCamp24x7 Reader"
+  },
+
+  "more_stories": {
+    "message": "More stories"
+  },
+  "submitButton": {
+    "message": "Add"
+  },
+  "deleteTitle": {
+    "message": "Delete"
+  },
+  "invalidChars": {
+    "message": "Invalid character(s)"
+  },
+  "noTopic": {
+    "message": "At least one Topic must be selected"
+  },
+
+  "fetchError": {
+    "message": "Error: Failed to fetch news stories."
+  },
+  "wrongTopic": {
+    "message": "Error: Not a valid feed."
+  },
+  "noStory": {
+    "message": "No story right now"
+  }
+}

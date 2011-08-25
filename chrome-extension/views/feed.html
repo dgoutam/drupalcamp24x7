@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+
+<!--
+ * Copyright (c) 2011 DrupalCamp24x7.org. All rights reserved. 
+ * Shows New Tutorials and Fetaured items in a popup from 
+ * drupalcamp24x7.org.
+ * 
+ * Author: dgoutam@gmail.com (Goutam Dey).
+-->
+
+<html>
+<head>
+<script src = "/javascript/util.js"></script>
+<link rel = "stylesheet" href = "/css/feed.css"/>
+<script src = "/javascript/feed.js"></script>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif:regular,italic&v1">
+</head>
+
+<body  onload="main();">
+<div class="top-nav">
+	<ul class="menu">
+		<li id="link-featured"  class="normal"><a  href="javascript:void(0)" onclick='showFeatured()'>Featured</a></li>
+		<li id="link-latest"  class="active"><a href="javascript:void(0)" onclick='showFeed()'>Latest</a></li>
+		
+	</ul>
+</div>
+
+<div style="height:41px;width171px;background:url(/images/news.gif) no-repeat;" class="logo">
+	<a href='javascript:chrome.tabs.create({"url":"http://drupalcamp24x7.org", "selected":true});window.close();' title="Free Drupal Video Tutorials, learn drupal in a social way">&nbsp;</a>
+</div>
+
+<div id = "feed" class="show">
+</div>
+<div id = "featuredfeed" class="hide" style="display:none">
+</div>
+<div id = "noStories">
+</div>
+</body>
+</html>
